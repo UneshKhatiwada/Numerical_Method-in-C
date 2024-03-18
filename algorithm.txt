@@ -1,0 +1,29 @@
+
+interpolation
+step 1: start
+step 2: Read 'n'
+step 3: for i = 0 to n-1
+        read x[i] and y[i][0]
+step 4: construct difference table
+        for j = 1 to n-1
+        for i = j to n-1
+        y[i][i]= y[i+1][j]-y[i][j-i]
+        End i
+        End j
+step 5: print(diffrence table)
+        for j = 0 to n-1
+        for i = 0 to i
+        print y[i][j]
+        End i
+        End j
+Step 6: Read a point of interpolation 'x'
+step 7: Assign h = x[1]- x[0]
+step 8: Calculate 
+        p= x-x[0]/h
+step 9: Assign 
+        Sum= y[0][0]
+step 10: for j= 1 to n-1
+         Sum = sum + (p-j+1)/j
+         End j
+Step 11: Display x and Sum
+Step 12: Stop

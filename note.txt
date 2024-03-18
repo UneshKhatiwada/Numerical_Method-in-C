@@ -1,0 +1,4 @@
+cubic spine
+lagrange interpolation
+
+Codeshare.io / dewRQ4
